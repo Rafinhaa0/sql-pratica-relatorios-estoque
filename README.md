@@ -30,4 +30,10 @@ com foco em:
 
 ---
 
+Como executar o projeto
+
+1. Criar o banco utilizando o arquivo schema.sql
+2. Inserir os dados com dados.sql
+3. Executar as consultas nos arquivos consultas_*.sql
+
 Projeto desenvolvido para prática e evolução na área de Suporte SQL / ERP.
