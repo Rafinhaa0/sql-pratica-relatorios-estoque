@@ -1,0 +1,10 @@
+CREATE TABLE produtos (
+  id INTEGER PRIMARY KEY,
+  nome TEXT NOT NULL,
+  categoria TEXT,
+  preco INTEGER NOT NULL,
+  taxa_importacao INTEGER NOT NULL DEFAULT 0,
+  estoque INTEGER NOT NULL DEFAULT 0,
+  lancamento INTEGER DEFAULT 1 CHECK (lancamento IN (0, 1)),
+  criado TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+) STRICT;
